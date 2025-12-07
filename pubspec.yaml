@@ -1,0 +1,29 @@
+name: raonson
+description: Raonson App (Instagram-like, AI, KING AI)
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.12.2
+  provider: ^4.3.3
+  video_player: ^1.0.1
+  camera: ^0.7.0+2
+  flutter_local_notifications: ^4.0.1+2
+  geolocator: ^6.2.1
+  url_launcher: ^5.7.10
+  animations: ^1.1.2
+  google_fonts: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
